@@ -11,7 +11,19 @@
     <packaging>war</packaging>
 
     <name>maven-webapps</name>
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <name>Tesla Releases</name>
+            <url>http://16.16.199.37:8081/repository/tesla-uto-releases/</url>
+        </repository>
 
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <name>Tesla Snapshots</name>
+            <url>http://16.16.199.37:8081/repository/tesla-uto-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
