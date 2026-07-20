@@ -12,18 +12,18 @@
 
     <name>maven-webapps</name>
     <distributionManagement>
-        <repository>
-            <id>nexus-releases</id>
-            <name>Tesla Releases</name>
-            <url>http://16.170.133.162:8081/repository/tesla-uto-releases/</url>
-        </repository>
+    <repository>
+        <id>nexus-releases</id>
+        <name>Tesla UTO Releases</name>
+        <url>http://16.170.133.162:8081/repository/tesla-uto-releases/</url>
+    </repository>
 
-        <snapshotRepository>
-            <id>nexus-snapshots</id>
-            <name>Tesla Snapshots</name>
-            <url>http://16.170.133.162:8081/repository/tesla-uto-snapshot/</url>
-        </snapshotRepository>
-    </distributionManagement>
+    <snapshotRepository>
+        <id>nexus-snapshots</id>
+        <name>Tesla UTO Snapshots</name>
+        <url>http://16.170.133.162:8081/repository/tesla-uto-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
