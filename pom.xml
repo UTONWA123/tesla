@@ -16,7 +16,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <sonar.host.url>http://16.170.162.127:9000</sonar.host.url>
+        <sonar.host.url>http://13.48.131.128:9000</sonar.host.url>
           <sonar.projectKey>maven-webapps</sonar.projectKey>
     </properties>
 
