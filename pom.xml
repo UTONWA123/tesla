@@ -15,20 +15,20 @@
     <repository>
         <id>nexus-releases</id>
         <name>Tesla UTO Releases</name>
-        <url>http://16.170.133.162:8081/repository/tesla-uto-releases/</url>
+        <url>http://13.50.221.50:8081/repository/tesla-uto-releases/</url>
     </repository>
 
     <snapshotRepository>
         <id>nexus-snapshots</id>
         <name>Tesla UTO Snapshots</name>
-        <url>http://16.170.133.162:8081/repository/tesla-uto-snapshots/</url>
+        <url>http://13.50.221.50:8081/repository/tesla-uto-snapshot/</url>
     </snapshotRepository>
 </distributionManagement>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <sonar.host.url>http://13.48.131.128:9000</sonar.host.url>
+        <sonar.host.url>http://13.48.189.229:9000</sonar.host.url>
           <sonar.projectKey>maven-webapps</sonar.projectKey>
     </properties>
 
